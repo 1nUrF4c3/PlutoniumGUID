@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Helpers">
+      <UniqueIdentifier>{b9249ec7-62fd-4866-a8a9-dd49d54bfda9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{57456d4b-4158-4d54-9672-93b442989321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{9238140a-d7f9-4d9c-b297-624b2d23bd50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface\WinAPI">
+      <UniqueIdentifier>{4774623a-3ab9-47d4-9ce0-a4b8abfa0d29}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp" />
+    <ClCompile Include="Interface\MainDlg.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface\Routines.cpp">
+      <Filter>Interface</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resources\Resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\MainDlg.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WinAPI\Button.hpp">
+      <Filter>Interface\WinAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WinAPI\Control.hpp">
+      <Filter>Interface\WinAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WinAPI\Dialog.hpp">
+      <Filter>Interface\WinAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WinAPI\StdAfx.hpp">
+      <Filter>Interface\WinAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WinAPI\Thunk.hpp">
+      <Filter>Interface\WinAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\WinAPI\Window.hpp">
+      <Filter>Interface\WinAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\Memory.hpp">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\Message.hpp">
+      <Filter>Helpers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Resource.ico">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\Resource.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
